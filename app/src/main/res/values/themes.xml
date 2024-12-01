@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.PrediksiBola" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Primary brand color -->
+        <item name="colorPrimary">@color/background_content</item>
+        <item name="colorPrimaryDark">@color/background_main</item>
+        <item name="colorAccent">@color/background_chart</item>
+    </style>
+
+    <style name="SpinnerTheme">
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:backgroundTint">@color/background_content</item>
+    </style>
+
+    <style name="SpinnerStyle" parent="Widget.AppCompat.Spinner">
+        <item name="android:popupBackground">@android:color/white</item>
+        <item name="android:dropDownVerticalOffset">-4dp</item>
+        <item name="android:dropDownHorizontalOffset">0dp</item>
+    </style>
+</resources>

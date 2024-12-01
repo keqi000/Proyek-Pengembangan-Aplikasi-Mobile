@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Prediksi Bola Liga Inggris</string>
+    <string name="prediction_result">Winner Prediction: %1$s\nProbability: %.1f%%</string>
+    <string name="team_stats">%1$s Stats:\nGoals Scored: %.1f\nGoals Conceded: %.1f\nShots Ratio: %.2f</string>
+    <string name="team_form">%1$s Form: %2$d W, %3$d D, %4$d L\n%5$s Form: %6$d W, %7$d D, %8$d L</string>
+    <string name="confidence_level">Prediction Confidence: %1$s</string>
+    <string name="model_error">Model Error: %1$s</string>
+</resources>

@@ -1,0 +1,63 @@
+{
+  "inputs": [
+    {
+      "name": "venue_code",
+      "dtype": "float32",
+      "shape": [
+        1
+      ]
+    },
+    {
+      "name": "opp_code",
+      "dtype": "float32",
+      "shape": [
+        1
+      ]
+    },
+    {
+      "name": "hour",
+      "dtype": "float32",
+      "shape": [
+        1
+      ]
+    },
+    {
+      "name": "day_code",
+      "dtype": "float32",
+      "shape": [
+        1
+      ]
+    },
+    {
+      "name": "goals_scored",
+      "dtype": "float32",
+      "shape": [
+        1
+      ]
+    },
+    {
+      "name": "goals_conceded",
+      "dtype": "float32",
+      "shape": [
+        1
+      ]
+    },
+    {
+      "name": "shots_ratio",
+      "dtype": "float32",
+      "shape": [
+        1
+      ]
+    }
+  ],
+  "outputs": [
+    {
+      "name": "prediction",
+      "dtype": "float32",
+      "shape": [
+        2
+      ]
+    }
+  ],
+  "description": "Football match prediction model"
+}
